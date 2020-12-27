@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'robert-photo.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hey there! I\'m Robert di Scipio, & I\'m a Software Engineer.',
+  paragraphTwo: 'I deliver high quality products to simplify, enhance, and impact the user experience across all platforms.',
+  paragraphThree: 'I love picking things apart, putting them back together, and figuring out how they work. I\'m a problem solver and an amazing team player. I also love cooking, board games, & dad jokes!',
   resume: 'https://res.cloudinary.com/radiscipio/image/upload/v1609106212/nkkoe3sqf8asljpgtv9z.pdf', // if no resume, the button will not show up
 };
 
@@ -55,30 +55,30 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'ruksak.png',
+    img: 'ruksak.jpg',
     title: 'School Project: RukSak',
     info: 'A trip planning web application',
     info2: 'Built with React, CSS, & Express and Sequelize for user Auth ',
     url: 'http://ruksak-rad.surge.sh/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/radiscipio/RukSak', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: '',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'reciplease.jpg',
+    title: 'School Project: ReciPlease',
+    info: 'UX Designer colaboration',
+    info2: 'Single day static web app built with React & CSS',
+    url: 'http://reciplease-ux-sei-colab.surge.sh/',
+    repo: 'https://github.com/radiscipio/brads-recipes', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: '',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'pokedex.jpg',
+    title: 'School Project: Pokédex',
+    info: 'View the original 151 Pokemon, and choose your starting team',
+    info2: 'Built using React & CSS',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/radiscipio/pokedex', // if no repo, the button will not show up
   },
 ];
 
@@ -86,7 +86,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'robertdiscipio@gmail.com',
 };
 
 // FOOTER DATA
@@ -94,28 +94,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'github',
+      url: 'https://github.com/radiscipio',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
+      url: 'https://www.linkedin.com/in/radiscipio/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
