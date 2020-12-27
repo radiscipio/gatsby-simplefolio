@@ -4,12 +4,12 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Robert di Scipio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Welcome to my Portfolio!', // e.g: Welcome to my website
+  description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Hey there. I\'m',
+  title: "Hey there! I'm",
   name: 'Robert di Scipio.',
   subtitle: 'A Software Engineer',
   cta: 'Get To Know Me',
@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'robert-photo.jpg',
-  paragraphOne: 'Hey there! I\'m Robert di Scipio, & I\'m a Software Engineer.',
-  paragraphTwo: 'I deliver high quality products to simplify, enhance, and impact the user experience across all platforms.',
-  paragraphThree: 'I love picking things apart, putting them back together, and figuring out how they work. I\'m a problem solver and an amazing team player. I also love cooking, board games, & dad jokes!',
+  paragraphOne: "Hey there! I'm Robert di Scipio, and I'm a Software Engineer.",
+  paragraphTwo:
+    'I deliver high quality products to simplify, enhance, and impact the user experience across all platforms.',
+  paragraphThree:
+    "I love picking things apart, putting them back together, and figuring out how they work. I'm a problem solver and an amazing team player. I also love cooking, board games, and dad jokes!",
   resume: 'https://res.cloudinary.com/radiscipio/image/upload/v1609106212/nkkoe3sqf8asljpgtv9z.pdf', // if no resume, the button will not show up
 };
 
@@ -47,8 +49,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'barrys.jpg',
-    title: 'Class Project: Barry\'s',
-    info: 'E-Commerce Men\'s Grooming Website',
+    title: "Class Project: Barry's",
+    info: "E-Commerce Men's Grooming Website",
     info2: 'Built using React, CSS, & Ruby on Rails for user Auth',
     url: 'http://barrys.surge.sh/',
     repo: 'https://github.com/radiscipio/project-4', // if no repo, the button will not show up
@@ -85,7 +87,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Want to work on something awesome?',
-  btn: 'Let\'s Chat!',
+  btn: "Let's Chat!",
   email: 'robertdiscipio@gmail.com',
 };
 
