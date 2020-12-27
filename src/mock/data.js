@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hey there. I\'m',
   name: 'Robert di Scipio.',
-  subtitle: 'I am a Software Engineer',
-  cta: '',
+  subtitle: 'A Software Engineer',
+  cta: 'Get To Know Me',
 };
 
 // ABOUT DATA
@@ -84,8 +84,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Want to work on something awesome?',
+  btn: 'Let\'s Chat!',
   email: 'robertdiscipio@gmail.com',
 };
 
