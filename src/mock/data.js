@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'tetris.png',
-    title: '',
-    info: '',
+    img: 'Tetris.jpg',
+    title: 'Tetris',
+    info: 'The classic Arcade Game Tetris!',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://fretful-approval.surge.sh/',
+    repo: 'https://github.com/radiscipio/react-tetris', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
