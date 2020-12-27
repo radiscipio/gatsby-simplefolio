@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Robert di Scipio', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
+  lang: '', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio!', // e.g: Welcome to my website
 };
 
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'src/images/robert-photo.jpg',
+  img: 'robert-photo.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
