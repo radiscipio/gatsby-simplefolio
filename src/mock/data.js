@@ -3,25 +3,25 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Robert di Scipio', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Hi there! I\'m Robert di Scipio',
-  subtitle: 'A Software Engineer',
+  name: 'Robert di Scipio.',
+  subtitle: 'I am a Software Engineer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'src/images/robert-photo.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://res.cloudinary.com/radiscipio/image/upload/v1609106212/nkkoe3sqf8asljpgtv9z.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
