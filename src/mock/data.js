@@ -28,16 +28,43 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'Tetris.jpg',
+    img: 'tetris-2.jpg',
     title: 'Tetris',
     info: 'The classic Arcade Game Tetris!',
-    info2: '',
+    info2: 'Built using React with React-Hooks & CSS Styled-Components',
     url: 'http://fretful-approval.surge.sh/',
     repo: 'https://github.com/radiscipio/react-tetris', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'DanceBody.jpg',
+    title: 'DanceBody Website',
+    info: 'Updated website for complete mobile responsiveness.',
+    info2: 'Used JavaScript & CSS for web fluidity',
+    url: 'https://www.dancebody.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'barrys.jpg',
+    title: 'Class Project: Barry\'s',
+    info: 'E-Commerce Men\'s Grooming Website',
+    info2: 'Built using React, CSS, & Ruby on Rails for user Auth',
+    url: 'http://barrys.surge.sh/',
+    repo: 'https://github.com/radiscipio/project-4', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ruksak.png',
+    title: 'School Project: RukSak',
+    info: 'A trip planning web application',
+    info2: 'Built with React, CSS, & Express and Sequelize for user Auth ',
+    url: 'http://ruksak-rad.surge.sh/',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '',
     title: '',
     info: '',
     info2: '',
@@ -46,7 +73,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: '',
     info: '',
     info2: '',
