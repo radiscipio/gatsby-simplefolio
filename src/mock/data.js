@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'barrys.jpg',
     title: "Barry's",
-    info: "Mock E-Commerce Men's Grooming Website",
+    info: "Class Project: E-Commerce Men's Grooming Website",
     info2: 'Built using React, CSS, & Ruby on Rails for user Auth',
     url: 'http://barrys.surge.sh/',
     repo: 'https://github.com/radiscipio/project-4', // if no repo, the button will not show up
@@ -59,7 +59,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'ruksak.jpg',
     title: 'RukSak',
-    info: 'A trip planning web application',
+    info: 'Class Project: A trip planning web application',
     info2: 'Built with React, CSS, & Express and Sequelize for user Auth ',
     url: 'http://ruksak-rad.surge.sh/',
     repo: 'https://github.com/radiscipio/RukSak', // if no repo, the button will not show up
@@ -68,7 +68,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'reciplease.jpg',
     title: 'ReciPlease',
-    info: 'UX Designer colaboration',
+    info: 'Class Project: UX Designer colaboration',
     info2: 'Single day static web app built with React & CSS',
     url: 'http://reciplease-ux-sei-colab.surge.sh/',
     repo: 'https://github.com/radiscipio/brads-recipes', // if no repo, the button will not show up
@@ -77,7 +77,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pokedex.jpg',
     title: 'Pokédex',
-    info: 'View the original 151 Pokemon, and choose your starting team',
+    info: 'Class Project: View the original 151 Pokemon, and choose your starting team',
     info2: 'Built using React & CSS',
     url: '',
     repo: 'https://github.com/radiscipio/pokedex', // if no repo, the button will not show up
