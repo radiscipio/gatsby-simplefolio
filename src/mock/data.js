@@ -18,11 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'robert-photo.jpg',
-  paragraphOne: "Hey there! I'm Robert di Scipio, and I'm a Software Engineer.",
+  paragraphOne: 'Hey there! My name is Robert di Scipio, and I am a Software Engineer.',
   paragraphTwo:
     'I deliver high quality products to simplify, enhance, and impact the user experience across all platforms.',
   paragraphThree:
-    "I love picking things apart, putting them back together, and figuring out how they work. I'm a problem solver and an amazing team player. I also love cooking, board games, and dad jokes!",
+    "I love picking things apart, figuring out how they work, and putting them back together. I'm a problem solver and a team player.",
   resume: 'https://res.cloudinary.com/radiscipio/image/upload/v1609106212/nkkoe3sqf8asljpgtv9z.pdf', // if no resume, the button will not show up
 };
 
