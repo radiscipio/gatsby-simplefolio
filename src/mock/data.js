@@ -79,7 +79,7 @@ export const projectsData = [
     title: 'Pokédex',
     info: 'Class Project: View the original 151 Pokemon, and choose your starting team',
     info2: 'Built using React & CSS',
-    url: '',
+    url: 'http://general-nerve.surge.sh/',
     repo: 'https://github.com/radiscipio/pokedex', // if no repo, the button will not show up
   },
 ];
